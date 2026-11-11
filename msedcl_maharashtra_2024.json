@@ -1,0 +1,43 @@
+{
+  "utility_id": "msedcl_maharashtra",
+  "utility_name": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+  "state": "Maharashtra",
+  "year": 2024,
+  "category": "Domestic / Residential (LT-1)",
+  "description": "Maharashtra Electricity Regulatory Commission (MERC) 2024 Multi-Year Tariff order.",
+  "currency": "₹",
+  "fixed_charges": {
+    "charge_type": "flat_monthly",
+    "rate": 128.0,
+    "min_charge": 128.0
+  },
+  "slabs": [
+    {
+      "from_units": 0,
+      "to_units": 100,
+      "rate_per_unit": 5.88
+    },
+    {
+      "from_units": 101,
+      "to_units": 300,
+      "rate_per_unit": 11.26
+    },
+    {
+      "from_units": 301,
+      "to_units": 500,
+      "rate_per_unit": 15.72
+    },
+    {
+      "from_units": 501,
+      "to_units": null,
+      "rate_per_unit": 17.81
+    }
+  ],
+  "taxes_and_surcharges": {
+    "electricity_duty_pct": 16.0,
+    "fpppa_rate_per_unit": 0.40,
+    "regulatory_surcharge_pct": 0.0,
+    "pension_surcharge_pct": 0.0
+  },
+  "subsidy": null
+}

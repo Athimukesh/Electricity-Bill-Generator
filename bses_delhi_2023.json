@@ -1,0 +1,49 @@
+{
+  "utility_id": "bses_delhi",
+  "utility_name": "BSES Rajdhani Power Limited (BRPL)",
+  "state": "Delhi",
+  "year": 2023,
+  "category": "Domestic / Residential (LT-1)",
+  "description": "Delhi Electricity Regulatory Commission (DERC) 2023 tariff order.",
+  "currency": "₹",
+  "fixed_charges": {
+    "charge_type": "tiered_by_load",
+    "rate": 35.0,
+    "min_charge": 35.0
+  },
+  "slabs": [
+    {
+      "from_units": 0,
+      "to_units": 200,
+      "rate_per_unit": 3.00
+    },
+    {
+      "from_units": 201,
+      "to_units": 400,
+      "rate_per_unit": 4.50
+    },
+    {
+      "from_units": 401,
+      "to_units": 800,
+      "rate_per_unit": 6.50
+    },
+    {
+      "from_units": 801,
+      "to_units": null,
+      "rate_per_unit": 7.00
+    }
+  ],
+  "taxes_and_surcharges": {
+    "electricity_duty_pct": 5.0,
+    "fpppa_rate_per_unit": 0.0,
+    "regulatory_surcharge_pct": 8.0,
+    "pension_surcharge_pct": 3.8
+  },
+  "subsidy": {
+    "scheme_name": "Delhi DERC Lifeline Subsidy Scheme",
+    "subsidy_type": "delhi_lifeline",
+    "free_units_limit": 200,
+    "discount_pct": 50,
+    "description": "100% full bill waiver if total monthly consumption is ≤ 200 units. 50% discount on energy charges for 201 to 400 units."
+  }
+}

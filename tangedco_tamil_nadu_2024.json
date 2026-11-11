@@ -1,0 +1,54 @@
+{
+  "utility_id": "tangedco_tamil_nadu",
+  "utility_name": "Tamil Nadu Generation and Distribution Corporation (TANGEDCO)",
+  "state": "Tamil Nadu",
+  "year": 2024,
+  "category": "Domestic / Residential (LT-1A)",
+  "description": "Tamil Nadu Electricity Regulatory Commission (TNERC) 2024 tariff with 100 Free Units Universal Subsidy.",
+  "currency": "₹",
+  "fixed_charges": {
+    "charge_type": "flat_monthly",
+    "rate": 50.0,
+    "min_charge": 50.0
+  },
+  "slabs": [
+    {
+      "from_units": 0,
+      "to_units": 100,
+      "rate_per_unit": 0.00
+    },
+    {
+      "from_units": 101,
+      "to_units": 200,
+      "rate_per_unit": 2.25
+    },
+    {
+      "from_units": 201,
+      "to_units": 400,
+      "rate_per_unit": 4.50
+    },
+    {
+      "from_units": 401,
+      "to_units": 500,
+      "rate_per_unit": 6.00
+    },
+    {
+      "from_units": 501,
+      "to_units": null,
+      "rate_per_unit": 8.00
+    }
+  ],
+  "taxes_and_surcharges": {
+    "electricity_duty_pct": 5.0,
+    "fpppa_rate_per_unit": 0.0,
+    "regulatory_surcharge_pct": 0.0,
+    "pension_surcharge_pct": 0.0
+  },
+  "subsidy": {
+    "scheme_name": "Tamil Nadu 100 Units Universal Free Scheme",
+    "subsidy_type": "tamil_nadu_universal",
+    "free_units_limit": 100,
+    "discount_pct": 100,
+    "description": "First 100 units of electricity are free for all domestic consumers across Tamil Nadu."
+  }
+}
